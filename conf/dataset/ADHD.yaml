@@ -1,0 +1,16 @@
+name: ADHD_cmorF16
+path: ./CBN/data/
+data_key: cwt
+
+data_path: <path_to_dataset> # Path to dataset (.npz) file
+idx_path: <path_to_dataset_index> # Path to index (.pkl) file
+
+train_set: 0.7
+valid_set: 0.2
+test_set: 0.1
+
+n_channels: 200
+n_frequencies: 16
+n_times: 76
+
+n_classes: 2
