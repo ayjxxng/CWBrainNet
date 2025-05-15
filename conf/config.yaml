@@ -7,7 +7,7 @@ defaults:
 
 main_path: ./CBN
 checkpoints: ./CBN/checkpoints
-init_method: tcp://<your-ip-address>:<port>  # specify for distributed setup
+init_method: tcp://<your-ip-address>:<port>  # Specify for distributed setup
 
 gpu: 0
 seed: 42
