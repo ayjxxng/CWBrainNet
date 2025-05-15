@@ -1,0 +1,21 @@
+name: cwbrainnet
+batch_norm: true
+
+embed_dim: 64
+hid_dim: 32
+
+n_st_blocks: 6
+spec_dmodel: 64
+spec_nheads: 4
+spec_dim_factor: 1
+
+temp_dmodel: 16
+temp_nheads: ${model.spec_nheads}
+temp_dim_factor: 2
+
+n_spat_blocks: 2
+spat_dmodel: 64
+spat_nheads: ${model.spec_nheads}
+spat_dim_factor: 2
+
+dropout: 0.3
